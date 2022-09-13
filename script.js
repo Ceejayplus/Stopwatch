@@ -22,8 +22,8 @@ const pauseButton = () => {
 const stopButton = () => {
     // location.reload()
     clearInterval(setTime);
-    myMillisec.value = 0;
-    mySeconds.value = 0;
-    myMinutes.value = 0;
-    myHours.value = 0
+    myMillisec.value = 00;
+    mySeconds.value = 00;
+    myMinutes.value = 00;
+    myHours.value = 00
 }
