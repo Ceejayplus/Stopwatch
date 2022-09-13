@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> STOPWATCH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="/stop3.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <div class="text-center">
+        <input type="text" placeholder="00" id="myHours" disabled class="col-2 border-0 rounded-pill text-center mt-3">
+        <input type="text" placeholder="00" id="myMinutes" disabled class="col-2 border-0 rounded-pill text-center mt-3">
+        <input type="text" placeholder="00" id="mySeconds" disabled class="col-2 border-0 rounded-pill text-center mt-3 mb-5">
+        <input type="text" placeholder="00" id="myMillisec" disabled class="col-2 border-0 rounded-pill text-center mt-3 mb-5"><br>
+        <button onclick="myStopWatch()" class="btn rounded-pill text-white fw-bold btn-lg mb-3">START</button>
+        <button onclick="stopButton()" class="btn rounded-pill btn-lg mb-3 get">PAUSE</button>
+        <button onclick="stopButton()" class="btn rounded-pill btn-lg mb-3 get">RESET</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script src="/bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
