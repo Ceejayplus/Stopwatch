@@ -33,7 +33,7 @@ button{
     }
     input{
         width: 30% !important;
-        font-size: 70px !important;
+        font-size: 80px !important;
     }
     button{
         font-size: 60px !important;
@@ -42,8 +42,17 @@ button{
     }
 }
 @media screen and (max-width: 520px) {
-    
+    .get{
+        color: red !important;
+        font-size: 20px !important;
+        margin-top: -30px !important;
+    }
+    button{
+        font-size: 30px !important;
+        font-family: 'Times New Roman', Times, serif !important;
+    }
 }
+
 .get{
     color: red !important;
     font-weight: 900 !important;
